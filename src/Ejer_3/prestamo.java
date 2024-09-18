@@ -23,6 +23,21 @@ public class prestamo {
 	        }
 	      
 	    }
+	    public void prestarLibro() {
+	        String titulo = JOptionPane.showInputDialog("Ingresa el título del libro a prestar:");
+	        for (int i = 0; i < titulos.length; i++) {
+	            if (titulos[i].equalsIgnoreCase(titulo)) {
+	                if (disponibles[i]) {
+	                    disponibles[i] = false;
+	                    JOptionPane.showMessageDialog(null, titulo + " Disfrutelo");
+	                } else {
+	                    JOptionPane.showMessageDialog(null, titulo + " Ya fue prestado");
+	                }
+	                return;
+	            }
+	        }
+	        
+	    }
 
 
 }
