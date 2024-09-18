@@ -24,6 +24,7 @@ public class main {
 	                    consulta.registroConsulta();
 	                    break;
 	                case 1:
+	                	consulta.mostrar();
 	                   
 	                    break;
 	                case 2:

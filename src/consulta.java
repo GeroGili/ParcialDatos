@@ -163,6 +163,12 @@ public class consulta {
 		}
 			
 	}
+	public void mostrar() {
+		String mensaje = ("Turno Registrado:\nFecha:" + fecha + "\nHora:" + hora + "\nPaciente:" + Paciente
+				+ "\nVeterinario:" + Veterinario + "\nEstado del Corazón:" + estadoCorazon + "\nEstado del Estómago:"
+				+ estadoEstomago + "\nEstado de las Patas:" + estadoPatas);
+		
+	}
 	
 	
 }
