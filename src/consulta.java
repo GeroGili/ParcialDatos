@@ -158,11 +158,11 @@ public class consulta {
 			}
 			
 		} else {
-			JOptionPane.showMessageDialog(null, "las estom del paciente funciona con normalidad");
+			JOptionPane.showMessageDialog(null, "las patas del paciente funciona con normalidad");
 
 		}
-	
-
-		
+			
 	}
+	
+	
 }
