@@ -33,11 +33,27 @@ public class prestamo {
 	                } else {
 	                    JOptionPane.showMessageDialog(null, titulo + " Ya fue prestado");
 	                }
-	                return;
+	                
 	            }
 	        }
 	        
 	    }
+	    public void devolverLibro() {
+	        String titulo = JOptionPane.showInputDialog("Ingresa el título del libro que vas a devolver:");
+	        for (int i = 0; i < titulos.length; i++) {
+	            if (titulos[i].equalsIgnoreCase(titulo)) {
+	                if (!disponibles[i]) {
+	                    disponibles[i] = true;
+	                    JOptionPane.showMessageDialog(null, titulo + "Se devolvio correctamente");
+	                } else {
+	                    JOptionPane.showMessageDialog(null, titulo + " ya esta en la biblioteca.");
+	                }
+	                return;
+	            }
+	        }
+	      
+	    }
+
 
 
 }
