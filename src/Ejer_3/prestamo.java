@@ -48,7 +48,7 @@ public class prestamo {
 	                } else {
 	                    JOptionPane.showMessageDialog(null, titulo + " ya esta en la biblioteca.");
 	                }
-	                return;
+	                
 	            }
 	        }
 	      
