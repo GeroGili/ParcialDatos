@@ -19,8 +19,8 @@ public class prestamo {
 	        for (int i = 0; i < titulos.length; i++) {
 	            String estado = disponibles[i] ? "disponible" : "no disponible";
 	            mensaje += titulos[i] + " - " + estado + "\n"; 
-	            JOptionPane.showMessageDialog(null, mensaje);
 	        }
+	        JOptionPane.showMessageDialog(null, mensaje);
 	      
 	    }
 	    public void prestarLibro() {
